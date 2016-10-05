@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0DECB919D049D10091B8C4 /* Main_View_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DECB819D049D10091B8C4 /* Main_View_Controller.m */; };
+		CE1A0B6A1A089FBC00AD45ED /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1A0B681A089FBC00AD45ED /* Bolts.framework */; };
+		CE1A0B6B1A089FBD00AD45ED /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1A0B691A089FBC00AD45ED /* Parse.framework */; };
+		CE40210E19C29CDD0002FCFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40210D19C29CDD0002FCFF /* Foundation.framework */; };
+		CE40211019C29CDD0002FCFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40210F19C29CDD0002FCFF /* CoreGraphics.framework */; };
+		CE40211219C29CDD0002FCFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40211119C29CDD0002FCFF /* UIKit.framework */; };
+		CE40211819C29CDD0002FCFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE40211619C29CDD0002FCFF /* InfoPlist.strings */; };
+		CE40211A19C29CDD0002FCFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE40211919C29CDD0002FCFF /* main.m */; };
+		CE40211E19C29CDD0002FCFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE40211D19C29CDD0002FCFF /* AppDelegate.m */; };
+		CE40212919C29CDD0002FCFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE40212819C29CDD0002FCFF /* Images.xcassets */; };
+		CE40213019C29CDD0002FCFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40212F19C29CDD0002FCFF /* XCTest.framework */; };
+		CE40213119C29CDD0002FCFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40210D19C29CDD0002FCFF /* Foundation.framework */; };
+		CE40213219C29CDD0002FCFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40211119C29CDD0002FCFF /* UIKit.framework */; };
+		CE40213A19C29CDD0002FCFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE40213819C29CDD0002FCFF /* InfoPlist.strings */; };
+		CE40213C19C29CDD0002FCFF /* SDC_TimetableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE40213B19C29CDD0002FCFF /* SDC_TimetableTests.m */; };
+		CE40214719C29E0E0002FCFF /* Timetable.m in Sources */ = {isa = PBXBuildFile; fileRef = CE40214619C29E0E0002FCFF /* Timetable.m */; };
+		CE40214A19C29E6C0002FCFF /* Timetable_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE40214919C29E6C0002FCFF /* Timetable_Cell.m */; };
+		CE40214C19C2B3E60002FCFF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40214B19C2B3E60002FCFF /* AudioToolbox.framework */; };
+		CE40214E19C2B3EC0002FCFF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40214D19C2B3EC0002FCFF /* CFNetwork.framework */; };
+		CE40215019C2B3F70002FCFF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40214F19C2B3F70002FCFF /* CoreLocation.framework */; };
+		CE40215219C2B4030002FCFF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40215119C2B4030002FCFF /* libz.dylib */; };
+		CE40215419C2B40B0002FCFF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40215319C2B40B0002FCFF /* MobileCoreServices.framework */; };
+		CE40215619C2B4110002FCFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40215519C2B4110002FCFF /* QuartzCore.framework */; };
+		CE40215819C2B41C0002FCFF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40215719C2B41C0002FCFF /* Security.framework */; };
+		CE40215C19C2B42A0002FCFF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE40215B19C2B42A0002FCFF /* SystemConfiguration.framework */; };
+		CE40216019C2C4BB0002FCFF /* Timetable_View_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = CE40215F19C2C4BB0002FCFF /* Timetable_View_Controller.m */; };
+		CE663E421A03958900EE813C /* Developers.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E341A03958900EE813C /* Developers.png */; };
+		CE663E431A03958900EE813C /* Download.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E351A03958900EE813C /* Download.png */; };
+		CE663E451A03958900EE813C /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E371A03958900EE813C /* Search.png */; };
+		CE663E461A03958900EE813C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E381A03958900EE813C /* Settings.png */; };
+		CE663E471A03958900EE813C /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E391A03958900EE813C /* Start.png */; };
+		CE663E481A03958900EE813C /* Students.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E3A1A03958900EE813C /* Students.png */; };
+		CE663E491A03958900EE813C /* SwipeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E3B1A03958900EE813C /* SwipeLeft.png */; };
+		CE663E4A1A03958900EE813C /* SwipeRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E3C1A03958900EE813C /* SwipeRight.png */; };
+		CE663E4B1A03958900EE813C /* Teachers.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E3D1A03958900EE813C /* Teachers.png */; };
+		CE663E4D1A03958900EE813C /* TimetableSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E3F1A03958900EE813C /* TimetableSettings.png */; };
+		CE663E511A0399A400EE813C /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = CE663E4F1A0399A400EE813C /* Mail.png */; };
+		CE91980519E4E76500DA3F77 /* About_us.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91980419E4E76500DA3F77 /* About_us.m */; };
+		CE91BEA119F4B996008F4876 /* Search_View_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91BEA019F4B996008F4876 /* Search_View_Controller.m */; };
+		CE91C98319ED78F40006C4E1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91C98219ED78F40006C4E1 /* Reachability.m */; };
+		CE923C7719C89C64008FE22D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE923C7619C89C64008FE22D /* libsqlite3.dylib */; };
+		CE9E97EC19FBE4F4008BD754 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9E97EB19FBE4F4008BD754 /* MessageUI.framework */; };
+		CEAC891F19FE7C5A00C81A13 /* updateDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC891E19FE7C5A00C81A13 /* updateDatabase.m */; };
+		CEACAB951A1F896500971997 /* EditorModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACAB941A1F896500971997 /* EditorModeViewController.m */; };
+		CEACAB981A1FA91000971997 /* EditorModeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACAB971A1FA91000971997 /* EditorModeTableViewCell.m */; };
+		CEACB8E51A2609E300A14D58 /* EditorModeExtraOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACB8E41A2609E300A14D58 /* EditorModeExtraOptions.m */; };
+		CEACB8FF1A2650D500A14D58 /* createExcel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACB8FE1A2650D500A14D58 /* createExcel.m */; };
+		CEADAA4B19F74CFD00CEDCFD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEADAA4A19F74CFD00CEDCFD /* Main_iPhone.storyboard */; };
+		CEADEE041A20E90100FCB611 /* SaveToCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = CEADEE031A20E90100FCB611 /* SaveToCloud.png */; };
+		CEADEE061A20EA1100FCB611 /* ChooseTarget.png in Resources */ = {isa = PBXBuildFile; fileRef = CEADEE051A20EA1100FCB611 /* ChooseTarget.png */; };
+		CEAE31DF1A21B237003D0033 /* EditorModeLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAE31DE1A21B237003D0033 /* EditorModeLogin.m */; };
+		CEAEFFF11A26DE420070577E /* TimetableScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFFEF1A26DE420070577E /* TimetableScreenshot.m */; };
+		CEAEFFF21A26DE420070577E /* TimetableScreenshot.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFFF01A26DE420070577E /* TimetableScreenshot.xib */; };
+		CEAEFFF41A2706450070577E /* CapturePicture.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFFF31A2706450070577E /* CapturePicture.png */; };
+		CEAF21B91A2B65A200F88691 /* Groups.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAF21B81A2B65A200F88691 /* Groups.png */; };
+		CEAF21BF1A2B810A00F88691 /* CellEditorMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF21BE1A2B810A00F88691 /* CellEditorMode.m */; };
+		CEAFE63B19E1CFE50051A062 /* Teachers_Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE63A19E1CFE50051A062 /* Teachers_Settings.m */; };
+		CEAFE65119E1D9EB0051A062 /* Teacher_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE65019E1D9EB0051A062 /* Teacher_Cell.m */; };
+		CEE6FD031A1FCF0A00BB4B60 /* EditorModeSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE6FD011A1FCF0A00BB4B60 /* EditorModeSettings.png */; };
+		CEEDB93B19C5FC26001DABC6 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDB93A19C5FC26001DABC6 /* Settings.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE40213319C29CDD0002FCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE40210219C29CDD0002FCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE40210919C29CDD0002FCFF;
+			remoteInfo = "SDC Timetable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE0DECB719D049D10091B8C4 /* Main_View_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_View_Controller.h; sourceTree = "<group>"; };
+		CE0DECB819D049D10091B8C4 /* Main_View_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_View_Controller.m; sourceTree = "<group>"; };
+		CE1A0B681A089FBC00AD45ED /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CE1A0B691A089FBC00AD45ED /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CE40210A19C29CDD0002FCFF /* SDC Timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDC Timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE40210D19C29CDD0002FCFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE40210F19C29CDD0002FCFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE40211119C29CDD0002FCFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE40211519C29CDD0002FCFF /* SDC Timetable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDC Timetable-Info.plist"; sourceTree = "<group>"; };
+		CE40211919C29CDD0002FCFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE40211B19C29CDD0002FCFF /* SDC Timetable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDC Timetable-Prefix.pch"; sourceTree = "<group>"; };
+		CE40211C19C29CDD0002FCFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE40211D19C29CDD0002FCFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE40212819C29CDD0002FCFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE40212E19C29CDD0002FCFF /* SDC TimetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDC TimetableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE40212F19C29CDD0002FCFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE40213719C29CDD0002FCFF /* SDC TimetableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDC TimetableTests-Info.plist"; sourceTree = "<group>"; };
+		CE40213B19C29CDD0002FCFF /* SDC_TimetableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDC_TimetableTests.m; sourceTree = "<group>"; };
+		CE40214519C29E0E0002FCFF /* Timetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timetable.h; sourceTree = "<group>"; };
+		CE40214619C29E0E0002FCFF /* Timetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timetable.m; sourceTree = "<group>"; };
+		CE40214819C29E6C0002FCFF /* Timetable_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timetable_Cell.h; sourceTree = "<group>"; };
+		CE40214919C29E6C0002FCFF /* Timetable_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timetable_Cell.m; sourceTree = "<group>"; };
+		CE40214B19C2B3E60002FCFF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE40214D19C2B3EC0002FCFF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CE40214F19C2B3F70002FCFF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE40215119C2B4030002FCFF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CE40215319C2B40B0002FCFF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CE40215519C2B4110002FCFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE40215719C2B41C0002FCFF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE40215B19C2B42A0002FCFF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE40215E19C2C4BB0002FCFF /* Timetable_View_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timetable_View_Controller.h; sourceTree = "<group>"; };
+		CE40215F19C2C4BB0002FCFF /* Timetable_View_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timetable_View_Controller.m; sourceTree = "<group>"; };
+		CE663E341A03958900EE813C /* Developers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Developers.png; sourceTree = "<group>"; };
+		CE663E351A03958900EE813C /* Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Download.png; sourceTree = "<group>"; };
+		CE663E371A03958900EE813C /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		CE663E381A03958900EE813C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		CE663E391A03958900EE813C /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		CE663E3A1A03958900EE813C /* Students.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Students.png; sourceTree = "<group>"; };
+		CE663E3B1A03958900EE813C /* SwipeLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwipeLeft.png; sourceTree = "<group>"; };
+		CE663E3C1A03958900EE813C /* SwipeRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwipeRight.png; sourceTree = "<group>"; };
+		CE663E3D1A03958900EE813C /* Teachers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teachers.png; sourceTree = "<group>"; };
+		CE663E3F1A03958900EE813C /* TimetableSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableSettings.png; sourceTree = "<group>"; };
+		CE663E4F1A0399A400EE813C /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		CE91980319E4E76500DA3F77 /* About_us.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About_us.h; sourceTree = "<group>"; };
+		CE91980419E4E76500DA3F77 /* About_us.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About_us.m; sourceTree = "<group>"; };
+		CE91BE9F19F4B996008F4876 /* Search_View_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search_View_Controller.h; sourceTree = "<group>"; };
+		CE91BEA019F4B996008F4876 /* Search_View_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search_View_Controller.m; sourceTree = "<group>"; };
+		CE91C98119ED78F40006C4E1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CE91C98219ED78F40006C4E1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CE923C7219C88665008FE22D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE923C7319C8869E008FE22D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE923C7619C89C64008FE22D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CE9E97EB19FBE4F4008BD754 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CEAC891D19FE7C5A00C81A13 /* updateDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updateDatabase.h; sourceTree = "<group>"; };
+		CEAC891E19FE7C5A00C81A13 /* updateDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = updateDatabase.m; sourceTree = "<group>"; };
+		CEACAB931A1F896500971997 /* EditorModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorModeViewController.h; sourceTree = "<group>"; };
+		CEACAB941A1F896500971997 /* EditorModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorModeViewController.m; sourceTree = "<group>"; };
+		CEACAB961A1FA91000971997 /* EditorModeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorModeTableViewCell.h; sourceTree = "<group>"; };
+		CEACAB971A1FA91000971997 /* EditorModeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorModeTableViewCell.m; sourceTree = "<group>"; };
+		CEACB8E31A2609E300A14D58 /* EditorModeExtraOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorModeExtraOptions.h; sourceTree = "<group>"; };
+		CEACB8E41A2609E300A14D58 /* EditorModeExtraOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorModeExtraOptions.m; sourceTree = "<group>"; };
+		CEACB8FD1A2650D500A14D58 /* createExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createExcel.h; sourceTree = "<group>"; };
+		CEACB8FE1A2650D500A14D58 /* createExcel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createExcel.m; sourceTree = "<group>"; };
+		CEADAA4A19F74CFD00CEDCFD /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CEADEE031A20E90100FCB611 /* SaveToCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaveToCloud.png; sourceTree = "<group>"; };
+		CEADEE051A20EA1100FCB611 /* ChooseTarget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChooseTarget.png; sourceTree = "<group>"; };
+		CEAE31DD1A21B237003D0033 /* EditorModeLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorModeLogin.h; sourceTree = "<group>"; };
+		CEAE31DE1A21B237003D0033 /* EditorModeLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorModeLogin.m; sourceTree = "<group>"; };
+		CEAEFFEE1A26DE420070577E /* TimetableScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableScreenshot.h; sourceTree = "<group>"; };
+		CEAEFFEF1A26DE420070577E /* TimetableScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableScreenshot.m; sourceTree = "<group>"; };
+		CEAEFFF01A26DE420070577E /* TimetableScreenshot.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimetableScreenshot.xib; sourceTree = "<group>"; };
+		CEAEFFF31A2706450070577E /* CapturePicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CapturePicture.png; sourceTree = "<group>"; };
+		CEAF21B81A2B65A200F88691 /* Groups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Groups.png; sourceTree = "<group>"; };
+		CEAF21BD1A2B810A00F88691 /* CellEditorMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellEditorMode.h; sourceTree = "<group>"; };
+		CEAF21BE1A2B810A00F88691 /* CellEditorMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellEditorMode.m; sourceTree = "<group>"; };
+		CEAFE63919E1CFE50051A062 /* Teachers_Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teachers_Settings.h; sourceTree = "<group>"; };
+		CEAFE63A19E1CFE50051A062 /* Teachers_Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teachers_Settings.m; sourceTree = "<group>"; };
+		CEAFE64F19E1D9EB0051A062 /* Teacher_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher_Cell.h; sourceTree = "<group>"; };
+		CEAFE65019E1D9EB0051A062 /* Teacher_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher_Cell.m; sourceTree = "<group>"; };
+		CEE6FD011A1FCF0A00BB4B60 /* EditorModeSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditorModeSettings.png; sourceTree = "<group>"; };
+		CEEDB93919C5FC26001DABC6 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		CEEDB93A19C5FC26001DABC6 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE40210719C29CDD0002FCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1A0B6A1A089FBC00AD45ED /* Bolts.framework in Frameworks */,
+				CE9E97EC19FBE4F4008BD754 /* MessageUI.framework in Frameworks */,
+				CE923C7719C89C64008FE22D /* libsqlite3.dylib in Frameworks */,
+				CE40215C19C2B42A0002FCFF /* SystemConfiguration.framework in Frameworks */,
+				CE40215819C2B41C0002FCFF /* Security.framework in Frameworks */,
+				CE1A0B6B1A089FBD00AD45ED /* Parse.framework in Frameworks */,
+				CE40215619C2B4110002FCFF /* QuartzCore.framework in Frameworks */,
+				CE40215419C2B40B0002FCFF /* MobileCoreServices.framework in Frameworks */,
+				CE40215219C2B4030002FCFF /* libz.dylib in Frameworks */,
+				CE40215019C2B3F70002FCFF /* CoreLocation.framework in Frameworks */,
+				CE40211019C29CDD0002FCFF /* CoreGraphics.framework in Frameworks */,
+				CE40214E19C2B3EC0002FCFF /* CFNetwork.framework in Frameworks */,
+				CE40214C19C2B3E60002FCFF /* AudioToolbox.framework in Frameworks */,
+				CE40211219C29CDD0002FCFF /* UIKit.framework in Frameworks */,
+				CE40210E19C29CDD0002FCFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE40212B19C29CDD0002FCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE40213019C29CDD0002FCFF /* XCTest.framework in Frameworks */,
+				CE40213219C29CDD0002FCFF /* UIKit.framework in Frameworks */,
+				CE40213119C29CDD0002FCFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE40210119C29CDD0002FCFF = {
+			isa = PBXGroup;
+			children = (
+				CE40211319C29CDD0002FCFF /* SDC Timetable */,
+				CE40213519C29CDD0002FCFF /* SDC TimetableTests */,
+				CE40210C19C29CDD0002FCFF /* Frameworks */,
+				CE40210B19C29CDD0002FCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE40210B19C29CDD0002FCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE40210A19C29CDD0002FCFF /* SDC Timetable.app */,
+				CE40212E19C29CDD0002FCFF /* SDC TimetableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE40210C19C29CDD0002FCFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A0B681A089FBC00AD45ED /* Bolts.framework */,
+				CE1A0B691A089FBC00AD45ED /* Parse.framework */,
+				CE9E97EB19FBE4F4008BD754 /* MessageUI.framework */,
+				CE923C7619C89C64008FE22D /* libsqlite3.dylib */,
+				CE40215B19C2B42A0002FCFF /* SystemConfiguration.framework */,
+				CE40215719C2B41C0002FCFF /* Security.framework */,
+				CE40215519C2B4110002FCFF /* QuartzCore.framework */,
+				CE40215319C2B40B0002FCFF /* MobileCoreServices.framework */,
+				CE40215119C2B4030002FCFF /* libz.dylib */,
+				CE40214F19C2B3F70002FCFF /* CoreLocation.framework */,
+				CE40214D19C2B3EC0002FCFF /* CFNetwork.framework */,
+				CE40214B19C2B3E60002FCFF /* AudioToolbox.framework */,
+				CE40210D19C29CDD0002FCFF /* Foundation.framework */,
+				CE40210F19C29CDD0002FCFF /* CoreGraphics.framework */,
+				CE40211119C29CDD0002FCFF /* UIKit.framework */,
+				CE40212F19C29CDD0002FCFF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE40211319C29CDD0002FCFF /* SDC Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				CE40211C19C29CDD0002FCFF /* AppDelegate.h */,
+				CE40211D19C29CDD0002FCFF /* AppDelegate.m */,
+				CEADAA4A19F74CFD00CEDCFD /* Main_iPhone.storyboard */,
+				CE0DECB719D049D10091B8C4 /* Main_View_Controller.h */,
+				CE0DECB819D049D10091B8C4 /* Main_View_Controller.m */,
+				CE91980319E4E76500DA3F77 /* About_us.h */,
+				CE91980419E4E76500DA3F77 /* About_us.m */,
+				CE91BE9F19F4B996008F4876 /* Search_View_Controller.h */,
+				CE91BEA019F4B996008F4876 /* Search_View_Controller.m */,
+				CEADEE071A20EDB500FCB611 /* EditorMode */,
+				CEAE2D8419FDF71500D39496 /* Timetable */,
+				CE40212819C29CDD0002FCFF /* Images.xcassets */,
+				CE40211419C29CDD0002FCFF /* Supporting Files */,
+			);
+			path = "SDC Timetable";
+			sourceTree = "<group>";
+		};
+		CE40211419C29CDD0002FCFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE663E311A03958900EE813C /* App button images */,
+				CE91C98119ED78F40006C4E1 /* Reachability.h */,
+				CE91C98219ED78F40006C4E1 /* Reachability.m */,
+				CE40211519C29CDD0002FCFF /* SDC Timetable-Info.plist */,
+				CE40211619C29CDD0002FCFF /* InfoPlist.strings */,
+				CE40211919C29CDD0002FCFF /* main.m */,
+				CE40211B19C29CDD0002FCFF /* SDC Timetable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE40213519C29CDD0002FCFF /* SDC TimetableTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE40213B19C29CDD0002FCFF /* SDC_TimetableTests.m */,
+				CE40213619C29CDD0002FCFF /* Supporting Files */,
+			);
+			path = "SDC TimetableTests";
+			sourceTree = "<group>";
+		};
+		CE40213619C29CDD0002FCFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE40213719C29CDD0002FCFF /* SDC TimetableTests-Info.plist */,
+				CE40213819C29CDD0002FCFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE663E311A03958900EE813C /* App button images */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF21B81A2B65A200F88691 /* Groups.png */,
+				CEAEFFF31A2706450070577E /* CapturePicture.png */,
+				CEADEE051A20EA1100FCB611 /* ChooseTarget.png */,
+				CEADEE031A20E90100FCB611 /* SaveToCloud.png */,
+				CEE6FD011A1FCF0A00BB4B60 /* EditorModeSettings.png */,
+				CE663E4F1A0399A400EE813C /* Mail.png */,
+				CE663E341A03958900EE813C /* Developers.png */,
+				CE663E351A03958900EE813C /* Download.png */,
+				CE663E371A03958900EE813C /* Search.png */,
+				CE663E381A03958900EE813C /* Settings.png */,
+				CE663E391A03958900EE813C /* Start.png */,
+				CE663E3A1A03958900EE813C /* Students.png */,
+				CE663E3B1A03958900EE813C /* SwipeLeft.png */,
+				CE663E3C1A03958900EE813C /* SwipeRight.png */,
+				CE663E3D1A03958900EE813C /* Teachers.png */,
+				CE663E3F1A03958900EE813C /* TimetableSettings.png */,
+			);
+			path = "App button images";
+			sourceTree = "<group>";
+		};
+		CE91980219E4E74400DA3F77 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDB93919C5FC26001DABC6 /* Settings.h */,
+				CEEDB93A19C5FC26001DABC6 /* Settings.m */,
+			);
+			name = Students;
+			sourceTree = "<group>";
+		};
+		CEADEE071A20EDB500FCB611 /* EditorMode */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE31DD1A21B237003D0033 /* EditorModeLogin.h */,
+				CEAE31DE1A21B237003D0033 /* EditorModeLogin.m */,
+				CEACAB931A1F896500971997 /* EditorModeViewController.h */,
+				CEACAB941A1F896500971997 /* EditorModeViewController.m */,
+				CEACAB961A1FA91000971997 /* EditorModeTableViewCell.h */,
+				CEACAB971A1FA91000971997 /* EditorModeTableViewCell.m */,
+				CEAF21BD1A2B810A00F88691 /* CellEditorMode.h */,
+				CEAF21BE1A2B810A00F88691 /* CellEditorMode.m */,
+				CEACB8E31A2609E300A14D58 /* EditorModeExtraOptions.h */,
+				CEACB8E41A2609E300A14D58 /* EditorModeExtraOptions.m */,
+			);
+			name = EditorMode;
+			sourceTree = "<group>";
+		};
+		CEAE2D8419FDF71500D39496 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFFEE1A26DE420070577E /* TimetableScreenshot.h */,
+				CEAEFFEF1A26DE420070577E /* TimetableScreenshot.m */,
+				CEAEFFF01A26DE420070577E /* TimetableScreenshot.xib */,
+				CE40215E19C2C4BB0002FCFF /* Timetable_View_Controller.h */,
+				CE40215F19C2C4BB0002FCFF /* Timetable_View_Controller.m */,
+				CE40214519C29E0E0002FCFF /* Timetable.h */,
+				CE40214619C29E0E0002FCFF /* Timetable.m */,
+				CE40214819C29E6C0002FCFF /* Timetable_Cell.h */,
+				CE40214919C29E6C0002FCFF /* Timetable_Cell.m */,
+				CEAC891D19FE7C5A00C81A13 /* updateDatabase.h */,
+				CEAC891E19FE7C5A00C81A13 /* updateDatabase.m */,
+				CEACB8FD1A2650D500A14D58 /* createExcel.h */,
+				CEACB8FE1A2650D500A14D58 /* createExcel.m */,
+				CE91980219E4E74400DA3F77 /* Students */,
+				CEAFE63819E1CFBB0051A062 /* Teachers */,
+			);
+			name = Timetable;
+			sourceTree = "<group>";
+		};
+		CEAFE63819E1CFBB0051A062 /* Teachers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFE63919E1CFE50051A062 /* Teachers_Settings.h */,
+				CEAFE63A19E1CFE50051A062 /* Teachers_Settings.m */,
+				CEAFE64F19E1D9EB0051A062 /* Teacher_Cell.h */,
+				CEAFE65019E1D9EB0051A062 /* Teacher_Cell.m */,
+			);
+			name = Teachers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE40210919C29CDD0002FCFF /* SDC Timetable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE40213F19C29CDD0002FCFF /* Build configuration list for PBXNativeTarget "SDC Timetable" */;
+			buildPhases = (
+				CE40210619C29CDD0002FCFF /* Sources */,
+				CE40210719C29CDD0002FCFF /* Frameworks */,
+				CE40210819C29CDD0002FCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDC Timetable";
+			productName = "SDC Timetable";
+			productReference = CE40210A19C29CDD0002FCFF /* SDC Timetable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE40212D19C29CDD0002FCFF /* SDC TimetableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE40214219C29CDD0002FCFF /* Build configuration list for PBXNativeTarget "SDC TimetableTests" */;
+			buildPhases = (
+				CE40212A19C29CDD0002FCFF /* Sources */,
+				CE40212B19C29CDD0002FCFF /* Frameworks */,
+				CE40212C19C29CDD0002FCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE40213419C29CDD0002FCFF /* PBXTargetDependency */,
+			);
+			name = "SDC TimetableTests";
+			productName = "SDC TimetableTests";
+			productReference = CE40212E19C29CDD0002FCFF /* SDC TimetableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE40210219C29CDD0002FCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dimension;
+				TargetAttributes = {
+					CE40210919C29CDD0002FCFF = {
+						DevelopmentTeam = JP7829KNZ8;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					CE40212D19C29CDD0002FCFF = {
+						TestTargetID = CE40210919C29CDD0002FCFF;
+					};
+				};
+			};
+			buildConfigurationList = CE40210519C29CDD0002FCFF /* Build configuration list for PBXProject "SDC Timetable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE40210119C29CDD0002FCFF;
+			productRefGroup = CE40210B19C29CDD0002FCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE40210919C29CDD0002FCFF /* SDC Timetable */,
+				CE40212D19C29CDD0002FCFF /* SDC TimetableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE40210819C29CDD0002FCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE663E451A03958900EE813C /* Search.png in Resources */,
+				CE663E421A03958900EE813C /* Developers.png in Resources */,
+				CE40212919C29CDD0002FCFF /* Images.xcassets in Resources */,
+				CE663E461A03958900EE813C /* Settings.png in Resources */,
+				CE663E431A03958900EE813C /* Download.png in Resources */,
+				CE663E4A1A03958900EE813C /* SwipeRight.png in Resources */,
+				CE663E481A03958900EE813C /* Students.png in Resources */,
+				CEADAA4B19F74CFD00CEDCFD /* Main_iPhone.storyboard in Resources */,
+				CE663E491A03958900EE813C /* SwipeLeft.png in Resources */,
+				CE663E511A0399A400EE813C /* Mail.png in Resources */,
+				CE663E471A03958900EE813C /* Start.png in Resources */,
+				CEAF21B91A2B65A200F88691 /* Groups.png in Resources */,
+				CEE6FD031A1FCF0A00BB4B60 /* EditorModeSettings.png in Resources */,
+				CEAEFFF21A26DE420070577E /* TimetableScreenshot.xib in Resources */,
+				CEAEFFF41A2706450070577E /* CapturePicture.png in Resources */,
+				CEADEE061A20EA1100FCB611 /* ChooseTarget.png in Resources */,
+				CE40211819C29CDD0002FCFF /* InfoPlist.strings in Resources */,
+				CE663E4B1A03958900EE813C /* Teachers.png in Resources */,
+				CE663E4D1A03958900EE813C /* TimetableSettings.png in Resources */,
+				CEADEE041A20E90100FCB611 /* SaveToCloud.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE40212C19C29CDD0002FCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE40213A19C29CDD0002FCFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE40210619C29CDD0002FCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91980519E4E76500DA3F77 /* About_us.m in Sources */,
+				CE40214719C29E0E0002FCFF /* Timetable.m in Sources */,
+				CEAEFFF11A26DE420070577E /* TimetableScreenshot.m in Sources */,
+				CEAFE65119E1D9EB0051A062 /* Teacher_Cell.m in Sources */,
+				CE40214A19C29E6C0002FCFF /* Timetable_Cell.m in Sources */,
+				CE91C98319ED78F40006C4E1 /* Reachability.m in Sources */,
+				CEEDB93B19C5FC26001DABC6 /* Settings.m in Sources */,
+				CEAF21BF1A2B810A00F88691 /* CellEditorMode.m in Sources */,
+				CEACAB981A1FA91000971997 /* EditorModeTableViewCell.m in Sources */,
+				CE91BEA119F4B996008F4876 /* Search_View_Controller.m in Sources */,
+				CE40211E19C29CDD0002FCFF /* AppDelegate.m in Sources */,
+				CE40216019C2C4BB0002FCFF /* Timetable_View_Controller.m in Sources */,
+				CEACB8E51A2609E300A14D58 /* EditorModeExtraOptions.m in Sources */,
+				CEACB8FF1A2650D500A14D58 /* createExcel.m in Sources */,
+				CEAC891F19FE7C5A00C81A13 /* updateDatabase.m in Sources */,
+				CEAFE63B19E1CFE50051A062 /* Teachers_Settings.m in Sources */,
+				CE40211A19C29CDD0002FCFF /* main.m in Sources */,
+				CEACAB951A1F896500971997 /* EditorModeViewController.m in Sources */,
+				CE0DECB919D049D10091B8C4 /* Main_View_Controller.m in Sources */,
+				CEAE31DF1A21B237003D0033 /* EditorModeLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE40212A19C29CDD0002FCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE40213C19C29CDD0002FCFF /* SDC_TimetableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE40213419C29CDD0002FCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE40210919C29CDD0002FCFF /* SDC Timetable */;
+			targetProxy = CE40213319C29CDD0002FCFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE40211619C29CDD0002FCFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE923C7319C8869E008FE22D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE40213819C29CDD0002FCFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE923C7219C88665008FE22D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE40213D19C29CDD0002FCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE40213E19C29CDD0002FCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE40214019C29CDD0002FCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Documents/My_projects/ParseFramework,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDC Timetable/SDC Timetable-Prefix.pch";
+				INFOPLIST_FILE = "SDC Timetable/SDC Timetable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE40214119C29CDD0002FCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Documents/My_projects/ParseFramework,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDC Timetable/SDC Timetable-Prefix.pch";
+				INFOPLIST_FILE = "SDC Timetable/SDC Timetable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE40214319C29CDD0002FCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDC Timetable.app/SDC Timetable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDC Timetable/SDC Timetable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDC TimetableTests/SDC TimetableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE40214419C29CDD0002FCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDC Timetable.app/SDC Timetable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDC Timetable/SDC Timetable-Prefix.pch";
+				INFOPLIST_FILE = "SDC TimetableTests/SDC TimetableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE40210519C29CDD0002FCFF /* Build configuration list for PBXProject "SDC Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE40213D19C29CDD0002FCFF /* Debug */,
+				CE40213E19C29CDD0002FCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE40213F19C29CDD0002FCFF /* Build configuration list for PBXNativeTarget "SDC Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE40214019C29CDD0002FCFF /* Debug */,
+				CE40214119C29CDD0002FCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE40214219C29CDD0002FCFF /* Build configuration list for PBXNativeTarget "SDC TimetableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE40214319C29CDD0002FCFF /* Debug */,
+				CE40214419C29CDD0002FCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE40210219C29CDD0002FCFF /* Project object */;
+}
